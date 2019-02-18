@@ -157,6 +157,7 @@ def download_week_6_resources(save_path):
 
 
 def link_all_keras_resources():
+    print(os.getcwd())
     link_all_files_from_dir("../readonly/keras/datasets/", os.path.expanduser("~/.keras/datasets"))
     link_all_files_from_dir("../readonly/keras/models/", os.path.expanduser("~/.keras/models"))
 
